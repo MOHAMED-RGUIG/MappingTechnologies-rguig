@@ -1,0 +1,236 @@
+/*Start general */
+.gradient-background   {
+ /* background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;*/
+  background-color: #141E46;
+  /* #e4be9e*/
+
+}
+.mainheading{
+  color:#ffff !important;
+}
+.carousel-caption {
+  position: absolute;
+  z-index: 1;
+  display:table;
+  width:100%;
+  height:100%;
+  text-align:center;
+}
+
+.absolute-div {
+  position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align:center;
+}
+.container1 {
+  position: relative;
+}
+.ico{
+  width:120px;
+  height: 100px;
+}
+
+.text>h1 {
+  background-color:  #141E46;
+  color:   #ffff !important;
+  font-weight: bolder;
+  font-size:40px;
+  position: absolute;
+  border-radius: 5px;
+  top:20%;
+  left: 50%;
+  padding: 5px;
+  transform: translate(-50%, -50%);
+}
+.bttn33 h3,.bttn34 {
+
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  color:#141E46;
+  font-size: 30px ;
+  font-weight: bolder;
+}
+
+.item {
+  position:relative;
+}
+.btncar{
+  background-color: #000 !important;
+  border-radius: 50%;
+  width:30px;
+  height:30px;
+}
+/*
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}*/
+/* END general */
+/*----------------------------------------------------------------*/
+
+
+/* START NAVBAR */
+.navbar{
+  background-color: #ffff;
+}
+.navbar-brand{
+  padding-left:20px;
+}
+.navfot{
+  background-color: #141E46;
+}
+.navbar-nav{
+  font-size:larger;
+  font-weight:bolder;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-right:20px;
+}
+.nav-item{
+  padding-left:30px !important;
+}
+.navbar-toggler{
+  margin-right:5px;}
+/* END NAVBAR */
+/*----------------------------------------------------------------*/
+
+button >.bttn1{
+  background-color: #ffff !important;
+  color: #0000 !important;
+  border: 0px;
+}
+.bttn1:hover{
+  background-color: #BB2525;
+  color: #ffff !important;
+  border: 0px;
+}
+#bttn1{
+  background-color: #ffff;
+  color: #0000 !important;
+  border: 0px;
+}
+.bttn3{
+  background-color: #141E46!important;
+  color: #ffff !important;
+  border: 0px !important;
+ 
+  }
+  .bttn33{
+    border: 0px !important;
+    margin:30px!important;
+    text-align: center !important;
+  }
+  .bttn3:hover{
+    background-color: #BB2525 !important;
+    color: #ffff!important;
+    border: 0px !important;
+  } 
+.bttn2{
+  background-color: #F1B13D;
+  border: 0px;
+  }
+
+/*start features*/
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+/*end features*/
+
+
+/*Start Testemonial */
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+}
+/*End Testemonial */
+
+
+
+/*----------------------------------------------------------------*/
+/* START FOOTER */
+
+.ftr,.text-body-primary,.nav{
+  margin-top: 5px !important;
+  color: #ffff !important;
+  background-color: #141E46;
+}
+.profile-img {
+  border-radius: 50%;
+  height: 230px;
+  width: 250px;
+}
+/* END FOOTER */
+.head2{
+  color:#ffff;
+}
+/*----------------------------------------------------------------*/
+/* CONTACT */
+
+#contact
+{
+    padding: 60px 0;
+    text-align: center
+}
+#contact h3
+{
+    width: 400px;
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    color: #141E46;
+    font-size: 40px;
+    border-bottom:  1px solid #02b8dd;
+    padding-bottom: 20px;   
+}
+
+form
+{
+    margin: 60px 0 20px 0;
+}
+label
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #141E46;
+}
+input[type="text"]
+{
+    padding:10px;
+    font-size: 20px;
+
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+.button-3
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color: #02b8dd;
+    border-style: none;
+    border-radius: 3px;
+}
+.button-3:hover
+{
+    color: #fff;
+    background-color: #BB2525;
+}
